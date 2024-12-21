@@ -1,0 +1,2 @@
+# Simulaciones-y-Documentos-de-mi-Trayectoria-en-F-sica
+Este repositorio contiene una colección de programas y artículos desarrollados durante mi trayectoria académica. Incluye scripts utilizados para simulaciones científicas, análisis de datos y otros proyectos computacionales, junto con documentos que explican los métodos, resultados y conclusiones obtenidas en diversos trabajos de investigación.
