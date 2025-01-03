@@ -1,11 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Nombre del archivo
-archivo = "Energia.dat"
 
 # Leer datos del archivo
-data = np.loadtxt(archivo)
+data = np.loadtxt("Energia.dat")
 
 # Extraer columnas
 tiempo = data[:, 0]  # Primera columna (Tiempo)
