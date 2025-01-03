@@ -1,9 +1,25 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Nombre del archivo
+import numpy as np
+
+# Nombre del archivo
+archivo = "c:/Users/Equipo/Documents/GitHub/Simulaciones-y-Documentos-de-mi-Trayectoria-en-F-sica/Otros trabajos/Cohete_Marte/Energia.dat"
 
 # Leer datos del archivo
-data = np.loadtxt("Energia.dat")
+data = np.loadtxt(archivo)
+
+# Extraer columnas
+tiempo = data[:, 0]  # Primera columna (Tiempo)
+E = data[:, 1]       # Segunda columna (Energía total)
+T = data[:, 2]       # Tercera columna (Energía cinética)
+V = data[:, 3]       # Cuarta columna (Energía potencial)
+
+# Crear gráfica
+
+# Leer datos del archivo
+data = np.loadtxt(archivo)
 
 # Extraer columnas
 tiempo = data[:, 0]  # Primera columna (Tiempo)
