@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Nombre del archivo
-archivo = "c:/Users/Equipo/Documents/GitHub/Simulaciones-y-Documentos-de-mi-Trayectoria-en-F-sica/Otros trabajos/Cohete_Marte/Energia.dat"
+archivo = "Energia.dat"
 
 # Leer datos del archivo
 data = np.loadtxt(archivo)
