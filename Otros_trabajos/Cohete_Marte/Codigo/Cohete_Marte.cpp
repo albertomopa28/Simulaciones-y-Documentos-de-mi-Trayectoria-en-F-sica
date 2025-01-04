@@ -50,9 +50,9 @@ int main()
 
     // Archivos en los que vamos a imprimr los resultados
     FILE *f1, *f2, *f3;
-    f1 = fopen("cohete_data.dat", "w");
+    f1 = fopen("Cohete_data.dat", "w");
     f2 = fopen("Energia.dat", "w");
-    f3 = fopen("A.dat", "w");
+    f3 = fopen("Cohete_respecto_a_Marte.dat", "w");
 
     // Inicializamos la posicion y los momentos
     valoresinicales(&r, &phi, &p_r, &p_phi);
@@ -162,7 +162,7 @@ int main()
 
 
 
-        if (i % 1000 == 0)
+        if (i % 10000 == 0)
         {
             // Guardamos los datos de cada paso pero en coordenas cartesianas
             fprintf(f1, "%lf, %lf \n", r * cos(phi), r * sin(phi));           // cohete
@@ -190,15 +190,15 @@ int main()
                 
 
 
-        if (i % 1000 == 0)
+        if (i % 10000 == 0)
         {
             if(t>0)
             {
-                fprintf(f3, "%lf, %lf \n \n",r*sin(phi)-dsm*sin(wt+Desfase_m),r*cos(phi)-dsm*cos(wt+Desfase_m));
+                fprintf(f3, "%lf, %lf \n \n",r*cos(phi)-dsm*cos(wt+Desfase_m),r*sin(phi)-dsm*sin(wt+Desfase_m));
             }
         }
 
-        if (i % 1000 == 0)
+        if (i % 10000 == 0)
         {
             // Calculamos las energias
             Energia(&E, &T, &V, r, r_t, r_m, phi, p_r, p_phi, t);
