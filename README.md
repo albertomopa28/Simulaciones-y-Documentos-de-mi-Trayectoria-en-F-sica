@@ -10,4 +10,15 @@ Este trabajo, presentado como mi Trabajo de Fin de Grado, explora el uso del mé
 ### 2. **Simulación de Redes Neuronales Basadas en el Modelo de Tasa de Disparo**
 Este proyecto analiza el comportamiento de una red neuronal compuesta por 1000 neuronas utilizando el modelo de tasa de disparo (Firing Rate Model). La investigación identifica transiciones de fase en el sistema y estudia la sincronización y criticidad en la actividad neuronal. Los resultados incluyen mapas de calor de tasas de disparo, covarianzas y autovalores de matrices de acoplamiento, ofreciendo una perspectiva física sobre el funcionamiento de sistemas neuronales complejos.
 
+## Otros Trabajos
+
+### **Simulación de una Misión Espacial a Marte**
+En este proyecto, se simula la trayectoria de un cohete desde la Tierra a Marte utilizando la órbita de Hohmann. Se resolvieron las ecuaciones de Hamilton con el método de Runge-Kutta de cuarto orden para modelar la influencia gravitacional del Sol, la Tierra y Marte. Los resultados muestran un análisis detallado de la energía necesaria, la duración de la misión (391,2 días) y las condiciones iniciales para lograr una órbita estable alrededor de Marte.
+
+### **Estudio del Modelo de Hopfield en Redes Neuronales**
+Se implementó el modelo de Hopfield utilizando el algoritmo de Metropolis para evaluar la convergencia de patrones almacenados bajo diferentes temperaturas. El trabajo analiza las transiciones entre configuraciones de neuronas, observando fenómenos como estados espurios y superposiciones de patrones, ofreciendo una visión física sobre el almacenamiento y recuperación de memoria en redes neuronales.
+
+### **Descontaminación de Agua con Semiconductores**
+Este informe detalla un estudio de fotocatálisis, utilizando simulaciones para determinar el mejor material y estructura para descomponer tintes contaminantes en agua. Se concluye que el germanio bidimensional (30 nm de grosor) es el material más eficiente, logrando limpiar 300 g de tinte en 16,52 minutos, lo que resalta el potencial de los semiconductores en aplicaciones medioambientales.
+
 ---
