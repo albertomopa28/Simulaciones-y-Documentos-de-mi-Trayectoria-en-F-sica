@@ -1,4 +1,4 @@
-# Simulaciones y Documentos de mi Trayectoria en Física
+# Simulaciones y Documentos de mi Trayectoria en Fisica
 
 A lo largo de mi formación en Física, he desarrollado diversos proyectos que combinan programación y simulación científica, abarcando áreas como la propagación de ondas electromagnéticas, redes neuronales y otros fenómenos complejos. Este repositorio recopila mis principales trabajos académicos y de investigación, organizados en carpetas según su temática. En cada carpeta encontrarás tanto los informes completos en formato PDF como el código y archivos necesarios para replicar las simulaciones.
 
